@@ -8,6 +8,7 @@ int main()
       mid=(low+high)/2;
       if(arr[mid]==ele){
         printf("element found");
+          break:
       }
       else if(ele<arr[mid]){
         high=mid-1;
